@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lovely Valentine';
+    src: url('font/lovely_valentine_script/Lovely Valentine Sans.otf') format('opentype'), url('font/lovely_valentine_script/Lovely Valentine Sans.ttf') format('truetype'),
+    url('font/lovely_valentine_script/Lovely Valentine Script.otf') format('opentype'), url('font/lovely_valentine_script/Lovely Valentine Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Lovely Valentine', Times, serif;
+    font-size: 3em;
+}
