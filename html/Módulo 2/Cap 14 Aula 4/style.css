@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* 16px = 1em */
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+Medidas Absolutas
+cm
+mm
+in
+px: ESCOLHA DA W3C
+pt
+pc
+
+Medidas Relativas
+em (relativo ao tamanho natural da fonte): ESCOLHA DA W3C
+ex (relativo a altura x da fonte)
+rem (tipo em, mas relativo a fonte configurada no body)
+vw (relativo a largura da view port)
+vh (relativo a altura da view port)
+% (porcentagem)
+*/
